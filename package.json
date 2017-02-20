@@ -1,0 +1,32 @@
+{
+  "name": "gorrygourmetapp",
+  "version": "1.0.0",
+  "description": "System Yang dibuat dengan MEAN Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && ex",
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jrpikong/gorrymean.git"
+  },
+  "keywords": [
+    "Mean"
+  ],
+  "author": "jr.pikong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrpikong/gorrymean/issues"
+  },
+  "homepage": "https://github.com/jrpikong/gorrymean#readme",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "body-parser": "^1.13.3",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.3",
+    "mongoose-auto-increment": "^5.0.1"
+  }
+}
